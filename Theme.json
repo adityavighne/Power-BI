@@ -1,0 +1,83 @@
+﻿{
+	"name": "Theme",
+	"dataColors": [
+		"#62BB46",
+		"#042A44",
+		"#4AAFF4",
+		"#CCCCCC",
+		"#D0EAC7",
+		"#B7DFFB",
+		"#0B70B5",
+		"#88CC73"
+	],
+	"minimum": "#D64554",
+	"textClasses": {
+		"label": {
+			"color": "#000000",
+			"fontFace": "Arial"
+		},
+		"callout": {
+			"color": "#000000",
+			"fontFace": "Arial",
+			"fontSize": 40
+		},
+		"title": {
+			"color": "#000000",
+			"fontFace": "Arial"
+		},
+		"header": {
+			"fontFace": "Arial"
+		}
+	},
+	"visualStyles": {
+		"*": {
+			"*": {
+				"border": [
+					{
+						"color": {
+							"solid": {
+								"color": "#FFFFFF"
+							}
+						},
+						"show": true,
+						"radius": 10
+					}
+				],
+				"outspacePane": [
+					{
+						"backgroundColor": {
+							"solid": {
+								"color": "#E6E6E6"
+							}
+						}
+					}
+				],
+				"filterCard": [
+					{
+						"$id": "Applied",
+						"backgroundColor": {
+							"solid": {
+								"color": "#B5E3A6"
+							}
+						},
+						"transparency": 0
+					}
+				]
+			}
+		},
+		"page": {
+			"*": {
+				"background": [
+					{
+						"color": {
+							"solid": {
+								"color": "#E6E6E6"
+							}
+						},
+						"transparency": 0
+					}
+				]
+			}
+		}
+	}
+}
